@@ -1,5 +1,4 @@
-# airflow-examples
-код для пары Data Pipelines
+# Airflow
 
 чтобы развернуть airflow, предварительно собрав контейнеры
 ~~~
@@ -7,6 +6,3 @@
 export FERNET_KEY=$(python -c "from cryptography.fernet import Fernet; FERNET_KEY = Fernet.generate_key().decode(); print(FERNET_KEY)")
 docker compose up --build
 ~~~
-Ссылка на документацию по docker compose up
-
-https://docs.docker.com/compose/reference/up/
